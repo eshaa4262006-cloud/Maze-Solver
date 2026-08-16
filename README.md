@@ -82,14 +82,10 @@ Add screenshots or a GIF here (optional):
 
 ---
 
-## 📌 Future Improvements (optional)
+## 📌 Future Improvements \
 - Add difficulty levels (maze size options)
 - Add timer and scoring system
 - Add step-by-step solving animation
 - Add colored terminal output / graphics mode (SDL2)
 
 ---
- 
-  or an IDE like **Code::Blocks**
-
-### 1) Clone the repository
