@@ -18,7 +18,7 @@ A maze solver game that generates a **random maze in every run**. The project in
 | 04 | **Nihad Binth Aktar** | `2421245643` |
 | 05 | **Anika Siddiki** | `2422147610` |
 
-*Course: **CSE115** | Section: **__** | Faculty: **__***  
+*Course: **CSE115** | Section: **4** | Faculty: **MSRB***  
 
 ---
 
