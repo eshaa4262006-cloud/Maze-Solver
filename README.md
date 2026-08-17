@@ -75,12 +75,6 @@ Optional folders:
 
 ---
 
-## 📸 Screenshots / Demo
-Add screenshots or a GIF here (optional):
-- `others/demo.gif`
-- `others/screenshot.png`
-
----
 
 ## 📌 Future Improvements \
 - Add difficulty levels (maze size options)
