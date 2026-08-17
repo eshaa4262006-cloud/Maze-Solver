@@ -30,7 +30,7 @@
 #include <time.h>
 
 /* ---------------------------------------------------------------
- *  CONFIG  (smaller maze than before)
+ *  CONFIG  
  * --------------------------------------------------------------- */
 #define ROWS 5                  /* maze cells vertically   */
 #define COLS 7                  /* maze cells horizontally */
