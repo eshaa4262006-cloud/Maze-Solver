@@ -1,0 +1,119 @@
+MAZE RUNNER GAME — PROJECT REQUIREMENTS
+
+1. Project Title
+Maze Runner Game
+
+2. Project Objective
+The objective of this project is to create a simple maze game in C where a user can register or log in, navigate through a maze, reach the destination, and have their performance recorded on a leaderboard.
+
+3. Functional Requirements
+
+3.1 User Registration
+- The program must allow a new user to create an account.
+- The user must provide a username and password.
+- The username must not be empty.
+- The program must check whether the username is already taken.
+- User account information must be stored in users.txt.
+
+3.2 User Login
+- The program must allow an existing user to log in.
+- The user must enter a username and password.
+- The program must compare the entered information with the stored account information.
+- Incorrect login information must be rejected.
+- The program must limit repeated failed login attempts.
+
+3.3 Maze Navigation
+- After successful login, the user must be able to play the maze.
+- The player must be able to move using:
+  W = Up
+  A = Left
+  S = Down
+  D = Right
+- The player must press Enter after entering a movement key.
+- The program must prevent the player from moving through walls.
+- If the player attempts to move into a wall, the program must display a message indicating that there is a wall.
+- The player must be able to quit the game using Q.
+
+3.4 Move Counter
+- The program must keep track of the number of moves made by the player.
+- The number of moves must be displayed during the game.
+- The final number of moves must be recorded when the maze is completed.
+
+3.5 Timer
+- The program must track the time taken by the player to complete the maze.
+- The current time must be displayed during gameplay.
+- The final completion time must be recorded for the player's score.
+
+3.6 Maze Completion
+- The program must detect when the player reaches the destination.
+- When the maze is completed, the program must display the player's final moves and time.
+- The player must be given the option to play again.
+
+3.7 Scoreboard / Leaderboard
+- The program must save completed-game scores in scores.txt.
+- Each score must be associated with the player's username.
+- The scoreboard must store the number of moves and completion time.
+- The program must display a leaderboard containing player usernames, moves, and time.
+- If there are no saved scores, the program must display an appropriate message.
+
+4. Input Requirements
+The program must accept:
+- Username
+- Password
+- Login/Register choice
+- Maze movement commands (W, A, S, D)
+- Quit command (Q)
+- Play-again choice (Y/N)
+
+5. File Requirements
+The project uses:
+- users.txt — stores registered usernames and passwords.
+- scores.txt — stores completed maze scores.
+
+6. Programming Concepts Used
+The project should demonstrate:
+- Variables and data types
+- Arrays / maze representation
+- Strings and string handling
+- Conditional statements (if/else)
+- Loops
+- Functions
+- User input and output
+- File handling
+- Searching and comparison
+- Counters
+- Time measurement
+- Basic game logic
+
+7. Error Handling
+The program should handle:
+- Empty usernames
+- Duplicate usernames
+- Incorrect username or password
+- Invalid login/register choices
+- Invalid movement input
+- Attempts to move into walls
+- Failure to save user or score information
+
+8. User Experience Requirements
+- The program should clearly display instructions.
+- The available movement keys should be shown to the player.
+- The current number of moves and time should be visible during gameplay.
+- Login, registration, game, and leaderboard sections should be clearly separated.
+- The player should receive messages when an action is successful or invalid.
+
+9. Expected Outcome
+A user should be able to:
+1. Register a new account or log in.
+2. Enter the maze.
+3. Navigate using W, A, S, and D.
+4. Avoid walls and reach the destination.
+5. See the number of moves and time taken.
+6. Save the result.
+7. View the leaderboard.
+8. Choose whether to play again.
+
+10. Main Files
+- Main C source code: Maze Runner Game
+- users.txt: User account data
+- scores.txt: Maze score data
